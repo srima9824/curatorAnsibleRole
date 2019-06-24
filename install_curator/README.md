@@ -55,13 +55,13 @@ Variables:
                 year: '*'
 
 The values of all the variables can be changed from here:
--> To change the cron command: Edit  elasticsearch_curator_cron_command variable.
--> To change the the unit count for  creating snapshot of indices change    snapshot_unit_count variable.
--> To change the unit count for deleting indices edit delete1_unit_count: variable for action 1 and delete2_unit_count:  for action 2 in deleteindex.yml.
--> To change the directory for storing curator files update the variable elasticsearch_curator_conf_dir
--> To specify path of repository, update s3_repository_path:
--> To give name of the snapshot , update name_of_repository:
--> All the other variables are self explanatory.
+To change the cron command: Edit elasticsearch_curator_cron_command variable.
+To change the the unit count for creating snapshot of indices: Change snapshot_unit_count variable.
+To change the unit count for deleting indices: Edit delete1_unit_count variable for action 1 and delete2_unit_count for action 2 in deleteindex.yml.
+To change the directory for storing curator files: Update the variable elasticsearch_curator_conf_dir
+To specify path of repository: Update s3_repository_path:
+To give name of the snapshot: Update name_of_repository:
+All the other variables are self explanatory.
 
 
 Playbook install_curator.yml
